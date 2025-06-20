@@ -1,0 +1,6 @@
+streamlit>=1.24.0
+requests==2.26.0
+fpdf
+pandas>=1.5.0
+qrcode
+pillow

@@ -1,0 +1,30 @@
+{
+  "aspirin": {
+    "generic_name": "acetylsalicylic acid",
+    "price": 10,
+    "manufacturer": "Generic",
+    "type": "Indian",
+    "form": "tablet",
+    "strength": "500mg",
+    "warnings": "May cause stomach upset.",
+    "packaging": "strip",
+    "schedule": "OTC",
+    "dosage": {"min": 50, "max": 1000},
+    "contraindications": ["allergy"],
+    "interactions": ["ibuprofen"]
+  },
+  "ibuprofen": {
+    "generic_name": "ibuprofen",
+    "price": 15,
+    "manufacturer": "Generic",
+    "type": "Indian",
+    "form": "tablet",
+    "strength": "400mg",
+    "warnings": "May cause stomach upset.",
+    "packaging": "strip",
+    "schedule": "OTC",
+    "dosage": {"min": 100, "max": 800},
+    "contraindications": ["allergy"],
+    "interactions": ["aspirin"]
+  }
+}
